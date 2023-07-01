@@ -1,0 +1,134 @@
+/* for tablet */
+@media (max-width:991px) {
+    .navbar .links ul a {
+        padding: 20px;
+    }
+
+    .benefits .item {
+        padding: 15px;
+        width: 50%;
+        float: left;
+    }
+    
+    .hadith {
+        padding: 30px 10px;
+    }
+    .hadith p {
+        font-size: 17px;
+    }
+    .hadith span {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    
+}
+/* for mobile phone */
+@media (max-width: 767px) {
+
+    /* start navbar */
+    .navbar .navigation {
+        float: none;
+    }
+    .navbar .navigation .navbarButton {
+        display: block;
+    }
+    .navbar .links {
+        float: none;
+        display: none
+    }
+    .navbar .links ul li {
+        float: none;
+    }
+    /* end navbar */
+
+    .intro .overlay {
+        padding:  50px 0 0;
+    }
+    .intro .user_photo,
+    .intro .welcome_msg {
+        width: auto;
+        float: none;
+    }
+    .intro .welcome_msg .msg{
+        padding-top: 30px;
+    }
+    .intro .welcome_msg .msg h1{
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+
+    .intro .user_photo img {
+    	height: 500px;
+    }
+
+    .benefits {
+        padding: 30px 10px;
+    }
+    .benefits .item {
+        padding: 15px;
+        width: auto;
+        float: none;
+    }
+    .benefits .all_items {
+        text-align: center;
+    }
+
+    .about .part{
+        padding: 30px 10px;
+    }
+    .about .part .description {
+        width: auto;
+        float: none;
+        padding: 0 20px;
+    }
+    .about .part .image_container {
+        width: auto;
+        float: none;
+    }
+        
+    /* start why_us */
+    .why_us .overlay {
+        padding: 30px 10px;
+    }
+    .why_us .overlay > p{
+        width:auto;
+        margin-bottom: 20px;
+    } 
+    .why_us .item {
+        width: auto;
+        float:none;
+    }
+    /* End  why_us */
+
+    /* start contact */
+    .contact .main_info,
+    .contact .social {
+        float: none;
+    }
+    .contact .main_info {
+        width: auto;
+    }
+    .contact .main_info .fa {
+        margin-right: 20px;
+    }
+    .contact .social {
+        width: auto;
+        text-align: center;
+        margin-top: 40px;
+    }
+    /* end contact */
+
+    
+    /* start footer */
+    footer p {
+        width: auto;
+        float: none;
+        margin-bottom: 15px;
+    }
+    /* end footer */
+
+}
+
+
